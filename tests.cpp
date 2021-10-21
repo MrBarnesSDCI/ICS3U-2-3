@@ -32,8 +32,8 @@ TEST_CASE("Exercise One") //Named ExerciseOne, tagged with example
 
 TEST_CASE("Exercise Two")
 {
-    CHECK(exerciseTwo("OAKS")==1);
-    CHECK(exerciseTwo("oaks")==0);
+    CHECK(exerciseTwo("SAINTS")==1);
+    CHECK(exerciseTwo("saints")==0);
     CHECK(exerciseTwo("COMPUTER")==1);
     CHECK(exerciseTwo("Computer")==0);
     CHECK(exerciseTwo("hat")==0);
